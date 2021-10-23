@@ -1,0 +1,21 @@
+#app1 {
+    background: rgb(218, 110, 155);
+}
+#app1 .output {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+#app1 .actions{
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+button {
+    padding: 10px 20px;
+    color: purple;
+    font-size: 30px;
+    border-radius: 10px;
+}
+span {
+    font-size: 30px;
+    color: rgb(68, 3, 68);
+}

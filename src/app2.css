@@ -1,0 +1,36 @@
+#app2 {   
+    background: plum;
+}
+#app2 .tab-bar > li > span {
+    font-size: 30px;
+    margin: auto;
+}
+div {
+    font-size: 20px;
+    text-indent: 2em;
+}
+#app2 .tab-bar {
+    display: flex;
+}
+#app2 .tab-bar > li {
+     border: 2px solid #dda0dd;
+     border-radius: 10px;
+     background: rosybrown;
+     width: 50%;   
+}
+#app2 .tab-bar > li.selected {
+    height: 8vh;
+    background: rgb(210, 1, 252);
+    color: white;
+}
+
+#app2 .tab-content {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+#app2 .tab-content > li {
+    display: none;
+}
+#app2 .tab-content > li.active {
+    display: block;
+}
